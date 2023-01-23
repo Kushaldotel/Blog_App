@@ -1,0 +1,37 @@
+{% extends 'blog/base.html' %} 
+
+{% load static %}
+
+{% block css_files %}
+<link rel="stylesheet" href=" {% static 'blog/css/home.css' %} ">
+{% endblock css_files %}
+
+
+
+{% block title %} Home {% endblock title %} 
+
+{%block body %}
+<h1>This is the home page of Mountain Coders Blog.</h1>
+<div class="container">
+  <h4>Why Blogging is necessary?</h4>
+  <p>
+    Blogging is a powerful tool that allows individuals and businesses to share
+    their thoughts, ideas, and expertise with a wide audience. It is a great way
+    to establish your online presence and build your personal brand or business
+    brand. In addition, blogging can help you connect with like-minded people,
+    engage with your audience, and foster a sense of community. It can also help
+    you improve your writing skills and stay up-to-date with the latest trends
+    and developments in your field. Overall, blogging is a necessary and
+    valuable activity that can help you grow and succeed in the digital world.
+    Kushal is a good guy.Blogs and articles play a significant role in today's digital world. 
+    They are a powerful tool for individuals and businesses to share their thoughts, ideas, and expertise with a wide audience.
+    One of the main benefits of blogging is that it helps establish an online presence.
+    In today's world, it is important for individuals and businesses to have an online presence to reach a larger audience and be competitive.
+    Blogging allows individuals and businesses to showcase their skills, knowledge, and personality, and to connect with like-minded people.
+    It also helps them engage with their audience and build a sense of community.
+    In addition, blogging can help you improve your writing skills and stay up-to-date with the latest trends and developments in your field.
+    Overall, blogging is a necessary and valuable activity that can help you grow and succeed in the digital world.
+    
+  </p>
+</div>
+{% endblock body %}
